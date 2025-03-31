@@ -204,17 +204,17 @@
           <h3>Subscribe to my newsletter.</h3>
           <p>See what's new and exciting from me.</p>
         
-          <form action="https://formsubmit.co/nickleidig7@gmail.com" method="POST">
-           <div class="mb-3">
-           <label for="exampleFormControlInput1" class="form-label">Email address</label>
-           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-           </div>
-           <div class="mb-3">
-           <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-           </div>
-           <button class="btn btn-primary" type="submit">Submit</button>
-          </form> 
+         <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
        
       </div>
     </div>
