@@ -204,11 +204,14 @@
           <h3>Subscribe to my newsletter.</h3>
           <p>See what's new and exciting from me.</p>
           <form action="https://formsubmit.co/nickleidig7@gmail.com" method="POST">
-            <input type="text" name="name" placeholder="Name" required>
-            <input type="email" name="email" placeholder="Email Address" required>
-            <br>
-            <input class="form-control form-control-lg" type="text" placeholder="Please write a short message if you wish!">
-            <br>
+           <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
             <button class="btn btn-primary" type="submit">Subscribe</button>
           </form> 
        
